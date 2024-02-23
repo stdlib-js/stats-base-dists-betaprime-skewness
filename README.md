@@ -69,7 +69,7 @@ when `α > 0` and `β > 3`. Otherwise, the skewness is not defined.
 ## Usage
 
 ```javascript
-import skewness from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-betaprime-skewness@deno/mod.js';
+import skewness from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-betaprime-skewness@v0.2.1-deno/mod.js';
 ```
 
 #### skewness( alpha, beta )
@@ -143,7 +143,7 @@ v = skewness( 1.0, -1.0 );
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@deno/mod.js';
-import skewness from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-betaprime-skewness@deno/mod.js';
+import skewness from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-betaprime-skewness@v0.2.1-deno/mod.js';
 
 var alpha;
 var beta;
