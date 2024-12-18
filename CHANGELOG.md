@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-14)
+## Unreleased (2024-12-18)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`8bf8285`](https://github.com/stdlib-js/stdlib/commit/8bf8285aba0ecbd00ae145c4c5c098cd28135814) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`0fc07d1`](https://github.com/stdlib-js/stdlib/commit/0fc07d1722a3da70464b37d4de5f6a762468f85e) - **feat:** add C implementation for `stats/base/dists/betaprime/skewness` [(#3462)](https://github.com/stdlib-js/stdlib/pull/3462) _(by Aayush Khanna, Philipp Burckhardt, stdlib-bot)_
 
 </details>
