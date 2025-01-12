@@ -259,8 +259,8 @@ int main( void ) {
     int i;
 
     for ( i = 0; i < 25; i++ ) {
-        alpha = random_uniform( 0, 20 );
-        beta = random_uniform( 0, 20 ) + 3.0;
+        alpha = random_uniform( 0.0, 20.0 );
+        beta = random_uniform( 3.0, 23.0 );
         y = stdlib_base_dists_betaprime_skewness( alpha, beta );
         printf( "α: %lf, β: %lf, skew(X;α,β): %lf\n", alpha, beta, y );
     }
@@ -317,7 +317,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
